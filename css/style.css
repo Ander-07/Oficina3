@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(233, 191, 101);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+img{
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pagina{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* celulares */
+@media(max-width: 400px){
+    img{
+        width: 100%;
+    }
+}
+
+/* tablets */
+@media(max-width: 768px){
+    img{
+        width:100%;
+    }
+}
